@@ -1,0 +1,16 @@
+<!--pages/selfassessment/selfassessment.wxml-->
+<view class='page_white'>
+  <view class='title_intro'>
+    <image class='shugang' src='../../images/shugang.png'></image>
+    <text class='person_title'>Self introduction</text>
+  </view>
+  <text class='intro'>我是一个什么样的人？有时候我也会这样问我自己。\n至少现在还是一名程序员，不管再忙还在坚持搬砖。 \n我是一名北漂，和大多数北漂一样，为了生计而奔波，早上坐一个多小时地铁，加班很频繁，跌跌撞撞，踉踉跄跄，喜欢珍惜当下。
+</text>
+  <text class='shouhuo'>- 收获 ：</text>
+  <text class='intro'>· 2014年本科毕业直至今已有五年的时间,一直从事Android应用开发工作。\n · 个人CSDN博客阅读量35万+， 排名1万+\n · 有自己的github，有小的成果就开源出来，为一个star而开心不已\n · 独立开发的项目“云学”用户量约50万+\n · 有一定的java后台开发经验，自学Springboot、mybatis、mysql、redis等框架\n · 自学且熟练使用微信小程序API开发微信小程序
+</text>
+  <text class='shouhuo'>- 业余 ：</text>
+  <text class='intro'> · 王者荣耀七个赛季最强王者 \n · 投资理财收益 -3万+\n · 轮滑花式刹停8年摔破n条裤子\n · 俯卧撑50+，引体向上10+\n · 50米自由泳1分30秒，60米dead tired~
+
+</text>
+</view>

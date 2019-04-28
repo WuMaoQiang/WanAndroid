@@ -1,0 +1,45 @@
+/* pages/system/system.wxss */
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-radius: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+}
+
+.item_left {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.title {
+  margin: 10px 15px;
+  font-size: 16px;
+  color: #515113;
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.items {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #646464;
+}
+
+.right_img {
+  margin-right: 20rpx;
+  height: 30px;
+  width: 30px;
+}

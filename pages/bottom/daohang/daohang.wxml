@@ -1,0 +1,41 @@
+<view class="daohang">
+  <!--左侧List-->
+
+  <view class='leftView'>
+
+    <scroll-view scroll-y="true" style='height:{{screenHeight}}rpx; '>
+      <view class='toptyperow'>
+        <block wx:for="{{courselist}}" wx:key="xxx" class="leftitem">
+          <!--标签文字利用当前tab和for循环的item进行比较，当前tab=item的index则是选中的-->
+          <text class="{{currentTab == index ?'coursetitleno':'coursetitlese'}}" id='{{index}}' bindtap='choosetype'>{{item.name}}</text>
+        </block>
+      </view>
+    </scroll-view>
+  </view>
+
+  <!--右侧数据显示 设置高度为屏幕的高度-->
+  <view class='rightView' style='height:{{screenHeight}}rpx; '>
+    <!--设置scroll-view 的scroll-into-view值为 toview，点击左侧list之后会给这个toview根据currentTab赋值然后scroll-view就会滑动到相应位置-->
+    <scroll-view scroll-y="true" style='height:{{screenHeight}}rpx;' scroll-into-view="{{toview}}" scroll-with-animation="true">
+      <!--双重for循环-->
+      <block wx:for="{{courselist}}" wx:key="xxx">
+        <!--设置id 目的是给item赋值id参数使得scroll-view根据这个值进行滑动-->
+        <view class='rightItem' id="date{{index}}">
+          <!--标题-->
+          <text class='itemName'>{{item.name}}</text>
+          <!--标题下面的数据更改一个for循环的名字 wx:for-index 循环item的articles数据拿到 title-->
+          <view class='rightItemIn'>
+            <block wx:for="{{item.articles}}" wx:key="xxx" wx:for-index="idx" wx:for-item="itemName">
+              <text class='itemNameIn' bindtap="itemInClick" data-url='{{itemName.link}}'>{{itemName.title}}</text>
+            </block>
+          </view>
+        </view>
+      </block>
+
+
+
+    </scroll-view>
+
+  </view>
+
+</view>

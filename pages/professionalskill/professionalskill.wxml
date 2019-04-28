@@ -1,0 +1,21 @@
+<!--pages/professionalskill/professionalskill.wxml-->
+<view class='title_all'>
+  <image class='shugang' src='../../images/shugang.png'></image>
+  <text class='person_title'>Professional skill </text>
+</view>
+<view class='text_all'>
+  <text class='text_normal'>  · 熟练使用MVC、MVP、MVVM设计模式
+ · 熟练使用微信小程序组件以相关API进行微信小程序开发
+ · 熟练使用Android+h5进行hybrid混合开发，熟悉h5代码
+ · 熟练使用Android自定义控件，处理常见的触摸事件
+ · 熟练掌握Android系统各版本特性和Material Design质感设计
+ · 熟练处理Android6.0动态权限申请、Android8.0全面屏、刘海屏适配问题
+ · 熟练使用Mac及Window系统进行应用开发，熟练使用SVN版本控制工具以及git
+ · 熟悉Volley、Retrofit、OkHttp、RxJava等常用框架，了解Volley、OkHttp等部分源码
+ · 熟悉使用ButterKnife注解简化代码提升开发效率、使用LeakCanary检测内存泄露
+ · 熟悉Android开发中常见的性能优化和内存优化的方式
+ · 了解HTML、CSS、JS、Kotlin等开发技术
+ · 能够快速阅技术文档，解决相应的技术问题
+</text>
+
+</view>

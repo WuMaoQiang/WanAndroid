@@ -1,0 +1,33 @@
+<!--pages/personsummarize/perasonsummarize.wxml-->
+<view class='page_person' style='height:{{screenHeight}}rpx;'>
+  <view class='title_all'>
+    <image class='shugang' src='../../images/shugang.png'></image>
+    <text class='person_title'>Personal overview</text>
+  </view>
+  <!--上面的图片 和小太阳gif-->
+  <view class='imgLine'>
+    <image class='myimg' src='../../images/myimg.png'></image>
+    <image class='mygif' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554370138853&di=22672c427772a4ce34219d63337af7a7&imgtype=0&src=http%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_gif%2FsUgcUibUEdBFgibqXQRrFteIJgTE4ECjFzEkvOvZibvYAJ33851LZtS43vnluyibFBbpMqUyPiaQpXvY5TD4mDN1F8w%2F640%3Fwx_fmt%3Dgif'></image>
+  </view>
+  <!--下面的 文字 概述-->
+  <view class='text_all'>
+    <view class='imgLine2'>
+      <text class='text_normal'>姓 名:   吴茂强 </text>
+      <image class='mygif2' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554370877231&di=e693a65de4c1447ac0dbacdde7f111c0&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F010e43590ad95ba8012145502b8df2.gif'></image>
+    </view>
+    <text class='text_normal'>性别:   男 </text>
+    <text class='text_normal'> 年龄:  28 </text>
+    <view class='yearandscholl'>
+      <view class='leftstyle'>
+        <text class='text_normal'> 工作经验:   五年 </text>
+        <text class='text_normal'> 毕业院校:   烟台大学 </text>
+      </view>
+      <image class='mygif3' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554371318462&di=d9bbcde42ecc71b9881fb938dbdbe351&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01ad9a58e5af27a801219c77c283f1.gif'></image>
+    </view>
+    <text class='text_normal'> 所学专业:   电子信息科学与技术 </text>
+    <text class='text_normal'> 学历:    本科 </text>
+    <text class='text_normal'> 联系方式:   18301125996 </text>
+    <text class='text_normal'> 电子邮件:   cc18301125996@gmail.com </text>
+  </view>
+
+</view>

@@ -1,0 +1,10 @@
+/* pages/professionalskill/professionalskill.wxss */
+.text_normal {
+  margin-top: 25rpx;
+  font-size: 16px;
+  color: #646464;
+ 
+}
+.text_all{
+  margin: 30rpx;
+}

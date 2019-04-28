@@ -1,0 +1,46 @@
+<view>
+  <view class='title_next'>
+
+    <view class='title_all'>
+      <image class='shugang' src='../../images/shugang.png'></image>
+      <text class='person_title'>Work experience</text>
+
+    </view>
+    <button class='bg-green' bindtap='numSteps'>下一步</button>
+  </view>
+
+
+  <view>
+    <view class='cu-steps'>
+      <view class='cu-item {{index>num?"":"text-blue"}}' wx:for="{{numList}}" wx:key>
+        <text class='num {{index==3?"err":""}}' data-index='{{index + 1}}'></text>
+        <text class='step_name'> {{item.name}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='work_info'>
+
+
+    <view class='work_time'>
+      <text class='work_time_title'>工作时间：</text>
+      <text class='work_time_info'>{{time}}</text>
+    </view>
+
+    <view class='work_time'>
+      <text class='work_time_title'>公司名称：</text>
+      <text class='work_time_info'>{{name}}</text>
+    </view>
+    <view class='work_time_duty'>
+      <text class='work_time_title'>工作描述：</text>
+      <text class='work_time_info_duty'>{{duty}}</text>
+
+    </view>
+
+
+
+
+  </view>
+
+
+</view>

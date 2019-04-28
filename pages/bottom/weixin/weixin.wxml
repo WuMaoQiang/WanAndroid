@@ -1,0 +1,3 @@
+<!--pages/weixin/weixin.wxml-->
+<text>pages/weixin/weixin.wxml</text>
+<image class='img' src='../../../images/wx.png'></image>

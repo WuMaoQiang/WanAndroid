@@ -1,0 +1,133 @@
+.UCenter-bg {
+  background: #2996cd;
+  background-size: cover;
+  height: 320rpx;
+  display: flex;
+  justify-content: center;
+  padding-top: 30rpx;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.text_title {
+  color: white;
+  font-size: 16px;
+}
+
+.text_by {
+  margin-bottom: 50rpx;
+  margin-top: 10rpx;
+  color: white;
+  font-size: 14px;
+}
+
+.imagePhoto {
+  width: 120rpx;
+  height: 120rpx;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 5rpx solid #fff;
+}
+
+.UCenter-bg .gif-wave {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  mix-blend-mode: screen;
+  height: 100rpx;
+}
+
+.csdngitjian {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 180rpx;
+  justify-content: space-around;
+}
+
+.csdn_item {
+  display: flex;
+  flex-direction: column;
+  height: 180rpx;
+  width: 30%;
+  background: #fff;
+  align-items: center;
+}
+
+.item_img {
+  margin-top: 20rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+
+.item_imgjian {
+  margin-top: 30rpx;
+  height: 70rpx;
+  width: 80rpx;
+}
+
+.csdn_gang {
+  height: 0.1rpx;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 1rpx rgba(0, 0, 0, 0.1);
+}
+
+.item_text {
+  margin-top: 20rpx;
+  color: #646464;
+  font-size: 14px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  align-self: center;
+  margin: 20rpx 0px;
+  align-items: stretch;
+  background: #fff;
+  border-radius: 22rpx;
+  box-shadow: 0 0 1rpx rgba(0, 0, 0, 0.1);
+}
+
+.info_item {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  height: 80rpx;
+  margin: 15rpx;
+}
+
+.info_item_imgleft {
+  align-self: center;
+  margin-right: 20rpx;
+  margin-left: 30rpx;
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.info_item_imgright {
+  align-self: center;
+  margin-right: 20rpx;
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.info_item_text {
+  align-self: center;
+  width: 80%;
+  color: #646464;
+  font-size: 16px;
+}
+
+.info_item_gang {
+  height: 1px;
+  background: #f4f4f4;
+  width: 100%;
+}

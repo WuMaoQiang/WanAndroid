@@ -1,0 +1,35 @@
+<!--pages/systemlist/systemlist.wxml-->
+<view class="page">
+  <!--position: fixed;z-index: 99;设置scroview固定在顶部 -->
+  <scroll-view scroll-x="true" style='width:100%;position: fixed;z-index: 99;'>
+    <view class='toptyperow'>
+
+      <block wx:for="{{typelist}}" wx:key="xxx">
+        <!--标签文字和下面的横岗样式 使用border-bottom作为底部横岗-->
+        <text wx:if="{{item.visible == 0}}" class='typetitleno' id='{{index}}' bindtap='choosetype'>{{item.name}}</text>
+        <text wx:if="{{item.visible == 1}}" class='typetitlese' id='{{index}}' bindtap='choosetype'>{{item.name}}</text>
+      </block>
+
+    </view>
+  </scroll-view>
+
+  <view style=" margin-top: 50px;">
+    <block wx:for="{{pagerList}}" wx:key="xxx">
+      <!--头像名字时间-->
+      <view class='liststyle' bindtap='detail' id='{{item.link}}'>
+        <view class='listtop'>
+          <view>
+            <image class='listtopimage' src='../../images/ic_launcher_round.png'></image>
+          </view>
+          <view style='font-size: 12px;color: #646464;'>{{item.author}}</view>
+          <view class='listtoptime'>{{item.niceDate}}</view>
+        </view>
+        <!--文章title-->
+        <text class='title'>{{item.title}}</text>
+        <!--分类-->
+        <view class='chapterName'>{{item.chapterName}}</view>
+      </view>
+    </block>
+  </view>
+
+</view>

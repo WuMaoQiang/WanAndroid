@@ -1,0 +1,17 @@
+<!--pages/tixi/tixi.wxml-->
+<view class="page">
+  <block wx:for="{{systemList}}" wx:key="xxx"wx:for-index="index" >
+    <view class='item' bindtap='systemListClick' data-id='{{index}}' data-name='{{item.name}}'>
+      <view class='item_left'>
+        <view class='title'>{{item.name}}</view>
+
+        <view class='flexrow'>
+          <block wx:for="{{item.children}}"  wx:key="xxx" wx:for-index="index">
+            <view class='items'>{{item.name}}</view>
+          </block>
+        </view>
+      </view>
+      <image class='right_img' src='../../../images/into.png'></image>
+    </view>
+  </block>
+</view>

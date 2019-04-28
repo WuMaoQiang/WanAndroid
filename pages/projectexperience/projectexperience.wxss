@@ -1,0 +1,108 @@
+/* pages/projectexperience/projectexperience.wxss */
+
+/**
+*类型选中的样式
+*/
+
+.typetitlese {
+  width: auto;
+  font-size: 16px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  color: #2996cd;
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 10px;
+  white-space: nowrap;
+  border-bottom: 2px solid #2996cd;
+}
+
+/**
+*类型未选中的样式
+*/
+
+.typetitleno {
+  width: auto;
+  font-size: 16px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: #000;
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.work_info {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 20px;
+}
+
+.work_time {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10rpx;
+  align-items: center;
+}
+
+.work_time_duty {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rpx;
+}
+
+.work_time_des {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10rpx;
+}
+
+.work_time_title {
+  font-size: 16px;
+  color: #2996cd;
+  font-weight: bold;
+}
+
+.work_time_title_des {
+  font-size: 16px;
+  color: #2996cd;
+  width: 80px;
+  font-weight: bold;
+}
+
+.work_time_info_des {
+  font-size: 16px;
+  color: #646464;
+  width: 70%;
+  margin-left: 10rpx;
+}
+
+.work_time_info {
+  font-size: 16px;
+  color: #646464;
+  margin-left: 10rpx;
+}
+
+.work_time_info_duty {
+  font-size: 16px;
+  color: #646464;
+  margin-top: 10rpx;
+}
+
+.project_all {
+  display: flex;
+  flex-direction: column;
+}
+
+.toptyperow {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  background-color: #f5f5f5;
+  padding-bottom: 2px;
+}

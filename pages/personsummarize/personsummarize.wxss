@@ -1,0 +1,70 @@
+/* pages/personsummarize/perasonsummarize.wxss */
+
+.page_person {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+}
+
+
+
+.imgLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.imgLine2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.myimg {
+  border-radius: 10rpx;
+  align-items: center;
+  height: 350rpx;
+  width: 360rpx;
+}
+
+.yearandscholl {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftstyle {
+  display: flex;
+  flex-direction: column;
+}
+
+.mygif {
+  width: 230rpx;
+  height: 80rpx;
+}
+
+.mygif2 {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 20rpx;
+  margin-left: 50px;
+}
+
+.mygif3 {
+  width: 160rpx;
+  height: 160rpx;
+  margin-left: 70px;
+}
+
+.text_all {
+  display: flex;
+  flex-direction: column;
+  margin: 30rpx;
+}
+
+.text_normal {
+  margin-top: 25rpx;
+  font-size: 16px;
+  color: #2996cd;
+}

@@ -1,0 +1,14 @@
+<!--pages/aboutproject/aboutproject.wxml-->
+<view class='page_white'>
+  <view class='title_intro'>
+    <image class='shugang' src='../../images/shugang.png'></image>
+    <text class='person_title'>About project</text>
+  </view>
+  <view class='viewtext'>
+    <text class='mytext'>1、本项目使用微信小程序框架参考文档进行开发</text>
+    <text class='mytext'>2、接口基于鸿洋大大提供的 WanAndroid API  </text>
+    <text class='mytext'>3、图标使用iconfont 阿里巴巴对外开放的icon资源 </text>
+    <text class='mytext'>4、目前文章详情，使用的是复制链接到剪切板。因为个人小程序不支持打开外部链接。</text>
+  </view>
+
+</view>

@@ -1,0 +1,97 @@
+/* pages/daohang/daohang.wxss */
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.daohang {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftView {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightView {
+  margin-left: 10rpx;
+  width: 70%;
+  height: 1000rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.coursetitleno {
+  height: 40rpx;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  color: #2996cd;
+  align-self: center;
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.coursetitlese {
+  width: 100%;
+  font-size: 14px;
+  align-self: center;
+  height: 40rpx;
+  text-align: center;
+  color: #000;
+  flex-grow: 1;
+  background-color: #eee;
+  padding: 20px;
+}
+
+.leftitem {
+  display: flex;
+  flex-direction: column;
+}
+
+.toptyperow {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: #f5f5f5;
+  padding-bottom: 2px;
+}
+
+.rightItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightItemIn {
+  display: flex;
+  padding: 10rpx;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.itemName {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10rpx;
+  color: #295226;
+  font-size: 18px;
+}
+
+.itemNameIn {
+  margin-left: 15rpx;
+  color: #545139;
+  font-size: 14px;
+  padding: 10rpx;
+  background: #f5f5f5;
+  margin: 10rpx;
+  border-radius: 22rpx;
+}

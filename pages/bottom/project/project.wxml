@@ -1,0 +1,42 @@
+<!--pages/bottom/project/project.wxml-->
+<view class="page">
+
+
+  <scroll-view scroll-x class="nav">
+    <block wx:for="{{titleList}}" wx:key="index">
+      <view class="nav-item {{currentTab == index ?'active':''}}" data-index='{{index}}' data-cid='{{item.id}}' bindtap='onTabClick'>{{item.name}}</view>
+    </block>
+  </scroll-view>
+
+
+  <view class='project-list-box animation-slide-bottom'>
+    <view class='project-box' wx:for="{{projectList}}" wx:key="index" data-url='{{item.link}}' bindtap='onItemClick'>
+      <!--布局分上下两部分，上部分又分左右两部分  下部分也是左右两部分-->
+      <view class='box-top '>
+        <!--左边-->
+        <view class='project-left'>
+          <image class='project-img' mode='aspectFill' src='{{item.envelopePic}}'></image>
+        </view>
+        <!--右边-->
+        <view class='project-right'>
+          <view class='user_name'>
+            <image class='listtopimage' src='../../../images/ic_launcher_round.png'></image>
+            <view class='name'>{{item.title}}</view>
+          </view>
+
+          <view class='desc'>{{item.desc}}</view>
+
+          <!--下面的-->
+          <view class='article-top'>
+            <view class='type'>{{item.author}}</view>
+            <view class='time'>{{item.niceDate}}</view>
+          </view>
+        </view>
+
+      </view>
+
+
+    </view>
+  </view>
+
+</view>

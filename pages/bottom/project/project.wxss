@@ -1,0 +1,149 @@
+/* pages/project/project.wxss */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+page {
+  background-color: #fff;
+}
+
+.nav {
+  height: 45px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background: #fff;
+  -moz-box-shadow: 0px 4px 10rpx #ccc;
+  -webkit-box-shadow: 0px 4px 10rpx #ccc;
+  box-shadow: 0px 4px 5rpx #ccc;
+}
+.animation-slide-bottom {
+  animation-name: slide-bottom;
+}
+.nav-item {
+  padding-bottom: 22rpx;
+  margin: 0 20rpx;
+  font-size: 15px;
+  color: #666;
+  display: inline-block;
+}
+
+.active {
+  margin-top: 20rpx;
+  border-bottom: 5rpx solid #2996cd;
+  color: #2996cd;
+}
+
+.project-list-box {
+  margin-top: 20rpx;
+  padding: 66rpx 0 0 0;
+}
+
+.project-box {
+  margin: 20rpx 15rpx;
+  padding: 15rpx;
+  -moz-box-shadow: 0px 0px 10px #ccc;
+  -webkit-box-shadow: 0px 0px 10px #ccc;
+  box-shadow: 0px 0px 10px #ccc;
+  background-color: #fff;
+  border-radius: 8rpx;
+}
+
+.project-box .box-top {
+  display: flex;
+}
+
+.project-left {
+  flex: 0.5;
+}
+
+.project-right {
+  margin-left: 20px;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.project-box .user_name {
+  display: flex;
+  align-items: center;
+}
+
+.user_name .head {
+  background-color: #ff8635;
+  border-radius: 50%;
+  width: 30rpx;
+  height: 30rpx;
+  font-size: 20rpx;
+  text-align: center;
+  color: #fff;
+}
+
+.user_name .name {
+  display: -webkit-box;
+  font-size: 14px;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #333;
+  flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  margin-left: 10rpx;
+}
+
+
+
+.project-box .desc {
+  display: -webkit-box;
+  font-size: 12px;
+  color: #999;
+  line-height: 40rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10rpx;
+}
+
+.project-box .project-img {
+  width: 200rpx;
+  margin-left: 20rpx;
+  height: 320rpx;
+  -moz-box-shadow: 0px 0px 10px #ccc;
+  -webkit-box-shadow: 0px 0px 10px #ccc;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 8rpx;
+}
+
+.listtopimage {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.time {
+  font-size: 12px;
+  color: #666;
+  bottom: 20rpx;
+  margin-left: 20rpx;
+}
+
+.article-top {
+  position: absolute;
+  display: flex;
+  margin-top: 20rpx;
+}
+
+.type {
+  color: #666;
+  font-size: 12px;
+}

@@ -1,0 +1,81 @@
+<!--pages/bottom/mine/mine.wxml-->
+<view class='page'>
+  <!--上面的头像 名字 和gif-->
+  <view class='UCenter-bg'>
+    <image src='../../../images/ic_launcher_round.png' class='imagePhoto' mode='widthFix' animation="{{animationData}}"></image>
+
+    <text class='text_title'>玩安卓</text>
+
+    <text class='text_by'>By : 吴茂强</text>
+
+    <image src='https://image.weilanwl.com/gif/wave.gif' mode='scaleToFill' class='gif-wave'></image>
+  </view>
+  <!--中间的csdn、git、简书-->
+  <view class='csdngitjian'>
+    <view class='csdn_item' bindtap='myblog' data-which='github'>
+      <image class='item_img' src='../../../images/github.png' animation="{{animationData}}"></image>
+      <text class='item_text' animation="{{animationData}}">GitHub</text>
+    </view>
+    <view style='  height: 120rpx;background: #F4F4F4; width: 1rpx;    margin-top: 20rpx; '></view>
+    <view class='csdn_item' bindtap='myblog' data-which='csdn'>
+      <image class='item_img' src='../../../images/csdn.png' animation="{{animationData}}"></image>
+      <text class='item_text' animation="{{animationData}}">CSDN</text>
+    </view>
+    <view style='  height: 120rpx;background: #F4F4F4; width: 1rpx;  margin-top: 20rpx;  '></view>
+    <view class='csdn_item' bindtap='myblog' data-which='jianshu'>
+      <image class='item_imgjian' src='../../../images/jianshu.png' animation="{{animationData}}"></image>
+      <text class='item_text' animation="{{animationData}}">JianShu</text>
+    </view>
+  </view>
+  <!--带阴影的分割线-->
+  <view class='csdn_gang'></view>
+
+
+  <!--下面部分-->
+  <view class='bottom'>
+
+    <view class="info_item" bindtap='personsummarize'>
+      <image class='info_item_imgleft' src='../../../images/geren.png'></image>
+      <text class='info_item_text'>个人概述</text>
+      <image class='info_item_imgright' src='../../../images/into.png'></image>
+    </view>
+    <view class='info_item_gang'></view>
+
+    <view class="info_item" bindtap='work'>
+      <image class='info_item_imgleft' src='../../../images/jingli.png'></image>
+      <text class='info_item_text'>工作经历</text>
+      <image class='info_item_imgright' src='../../../images/into.png'></image>
+    </view>
+    <view class='info_item_gang'></view>
+
+    <view class="info_item" bindtap='professionalskill'>
+      <image class='info_item_imgleft' src='../../../images/zhuanye.png'></image>
+      <text class='info_item_text'>专业技能</text>
+      <image class='info_item_imgright' src='../../../images/into.png'></image>
+    </view>
+    <view class='info_item_gang'></view>
+
+    <view class="info_item" bindtap='projectexperience'>
+      <image class='info_item_imgleft' src='../../../images/xiangmu.png'></image>
+      <text class='info_item_text'>项目经验</text>
+      <image class='info_item_imgright' src='../../../images/into.png'></image>
+    </view>
+    <view class='info_item_gang'></view>
+
+
+
+    <view class="info_item" bindtap='selfassessment'>
+      <image class='info_item_imgleft' src='../../../images/pingjia.png'></image>
+      <text class='info_item_text'>自我介绍</text>
+      <image class='info_item_imgright' src='../../../images/into.png'></image>
+    </view>
+    <view class='info_item_gang'></view>
+
+    <view class="info_item" bindtap="aboutproject">
+      <image class='info_item_imgleft' src='../../../images/yixiang.png'></image>
+      <text class='info_item_text'>关于项目</text>
+      <image class='info_item_imgright' src='../../../images/into.png'></image>
+    </view>
+
+  </view>
+</view>

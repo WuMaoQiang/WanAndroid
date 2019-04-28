@@ -1,0 +1,38 @@
+<!--pages/projectexperience/projectexperience.wxml-->
+<!--position: fixed;z-index: 99;设置scroview固定在顶部 -->
+<view class='project_all'>
+  <scroll-view scroll-x="true" style='width:100%;position: fixed;z-index: 99;'>
+    <view class='toptyperow'>
+
+      <block wx:for="{{typelist}}">
+        <!--标签文字和下面的横岗样式 使用border-bottom作为底部横岗-->
+        <text wx:if="{{item.visible == 0}}" class='typetitleno' id='{{index}}' bindtap='choosetype'>{{item.name}}</text>
+        <text wx:if="{{item.visible == 1}}" class='typetitlese' id='{{index}}' bindtap='choosetype'>{{item.name}}</text>
+      </block>
+
+    </view>
+  </scroll-view>
+
+
+
+  <view class='work_info'>
+
+
+    <view class='work_time_des'>
+      <text class='work_time_title_des'>开发周期：</text>
+      <text class='work_time_info_des'>{{time}}</text>
+    </view>
+
+    <view class='work_time_des'>
+      <text class='work_time_title_des'>项目描述：</text>
+      <text class='work_time_info_des'>{{des}}</text>
+    </view>
+    <view class='work_time_duty'>
+      <text class='work_time_title'>主要功能：</text>
+      <text class='work_time_info_duty'>{{duty}}</text>
+
+    </view>
+
+
+  </view>
+</view>

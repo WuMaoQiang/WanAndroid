@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/bottom/mine/mine",
+    "pages/bottom/main/main",
+    "pages/bottom/system/system",
+    "pages/bottom/daohang/daohang",
+    "pages/bottom/weixin/weixin",
+    "pages/bottom/project/project",
+    "pages/web/web",
+    "pages/systemnext/systemnext",
+    "pages/personsummarize/personsummarize",
+    "pages/workexperience/workexperience",
+    "pages/professionalskill/professionalskill",
+    "pages/projectexperience/projectexperience",
+    "pages/selfassessment/selfassessment",
+    "pages/aboutproject/aboutproject"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2996CD",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#2996CD",
+    "borderStyle": "black",
+    "backgroundColor": "#FFF",
+    "list": [
+      {
+        "pagePath": "pages/bottom/mine/mine",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine_select.png"
+      },
+      {
+        "pagePath": "pages/bottom/main/main",
+        "text": "首页",
+        "iconPath": "images/homea.png",
+        "selectedIconPath": "images/hoem_select.png"
+      },
+      {
+        "pagePath": "pages/bottom/system/system",
+        "text": "体系",
+        "iconPath": "images/icon_knowledge_hierarchy_not_selected.png",
+        "selectedIconPath": "images/icon_knowledge_hierarchy_selected.png"
+      },
+      {
+        "pagePath": "pages/bottom/project/project",
+        "text": "项目",
+        "iconPath": "images/project.png",
+        "selectedIconPath": "images/project_selected.png"
+      },
+      {
+        "pagePath": "pages/bottom/daohang/daohang",
+        "text": "导航",
+        "iconPath": "images/daohanga.png",
+        "selectedIconPath": "images/daohangs.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
