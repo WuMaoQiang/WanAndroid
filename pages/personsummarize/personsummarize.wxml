@@ -6,7 +6,7 @@
   </view>
   <!--上面的图片 和小太阳gif-->
   <view class='imgLine'>
-    <image class='myimg' src='../../images/myimg.png'></image>
+    <image class='myimg' src='../../images/myimg.jpg'></image>
     <image class='mygif' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554370138853&di=22672c427772a4ce34219d63337af7a7&imgtype=0&src=http%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_gif%2FsUgcUibUEdBFgibqXQRrFteIJgTE4ECjFzEkvOvZibvYAJ33851LZtS43vnluyibFBbpMqUyPiaQpXvY5TD4mDN1F8w%2F640%3Fwx_fmt%3Dgif'></image>
   </view>
   <!--下面的 文字 概述-->
